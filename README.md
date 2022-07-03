@@ -8,8 +8,8 @@ In this deep learning model which first detect the face and eyes and based on th
 Python, OpenCV, Tensorflow, Keras
 
 ### Code Requirements
-Python 3.7.6
-OpenCv 4.5.2
+- Python 3.7.6
+- OpenCv 4.5.2
 
 ### Libraries
 import cv2
@@ -23,10 +23,10 @@ from tensorflow import keras
 from tensorflow.keras import layers
 
 ### Model
-1.eading all the images from the dataset and converting them into an array for Data & Labels.
-2.Random shuffle is used to minimize overfitting
-3.Using TensorFlow, import a Keras image classification model, optionally loaded with weights pre-trained on ImageNet. model = tf.keras.applications.mobilenet.MobileNet()
-4.Use Tranfer Learning to create new model from above pretrained model
-5.A single unit dense layer is acting as output for binary classification with activation set to Sigmoid
-6.Optimizer is set to Adam.
-7.For realtime time eyetracking in videos, use Haar Cascades frontal face algo.
+1. eading all the images from the dataset and converting them into an array for Data & Labels.
+2. Random shuffle is used to minimize overfitting
+3. Using TensorFlow, import a Keras image classification model, optionally loaded with weights pre-trained on ImageNet. model = tf.keras.applications.mobilenet.MobileNet()
+4. Use Tranfer Learning to create new model from above pretrained model
+5. A single unit dense layer is acting as output for binary classification with activation set to Sigmoid
+6. Optimizer is set to Adam.
+7. For realtime time eyetracking in videos, use Haar Cascades frontal face algo.
